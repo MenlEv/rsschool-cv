@@ -6,9 +6,102 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+<header>
+    <nav class="nav">
+        <ul class="nav-list non-style-list">
+            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li><a href="#summary" class="nav-link">Summary</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#courses" class="nav-link">Courses</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#english" class="nav-link">English</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <section class="full-width-content">
+        <div class="crop content-header-item">
+            <img class="photo" src="assets/DSC05488-2-2.jpg" alt="Here is my photo">
+        </div>
+        <div class="content-header-item">
+            <h1 class="name">Evgeniya Menliyakhmatova</h1>
+            <p class="post">Intern front-end developer</p>
+        </div>
+        <div id="contacts" class="content-header-item">
+            <h2 class="headings">Contacts</h2>
+            <ul class="contacts-list non-style-list">
+                <li class="contacts-item">Russia, Saint Petersburg</li>
+                <li class="contacts-item"><span>email:<a href="mailto:eosergeeva@bk.ru" target="_blank"
+                                                         class="contacts-link">eosergeeva@bk.ru</a></span></li>
+                <li class="contacts-item"><span>Github:<a href="https://github.com/MenlEv" target="_blank"
+                                                          class="contacts-link">MenlEv</a></span></li>
+                <li class="contacts-item"><span>Telegram:<a href="https://t.me/evgeniya_stories" target="_blank"
+                                                            class="contacts-link">@evgeniya_stories</a></span></li>
+            </ul>
+        </div>
 
+    </section>
+
+    <div class="separator">
+    </div>
+
+    <div id=summary class="content-item border-bottom">
+        <h2 class="headings">Summary</h2>
+        <p class="text">I'm just starting to learn programming. I am SMM manager, but I want to learn programming to
+            change my
+            job.
+            Now I
+            am looking for a suitable course for myself to study JavaScript. At the moment, I have taken several
+            introductory courses at well-known online schools. This page is my first completed project. My goal is
+            learning
+            pure JavaScript at a good level, after that I am going to learn the React library.</p>
+    </div>
+
+    <div id="skills" class="content-item border-bottom">
+        <h2 class="headings">Skills</h2>
+        <ul class="non-style-list">
+            <li>Web-development: HTML5, CSS3, JavaScript</li>
+            <li>Frameworks and libraries: React</li>
+            <li>Version control: GIT, Github</li>
+            <li>Graphics: Figma</li>
+        </ul>
+    </div>
+
+    <div class="full-width-content">
+        <div id="courses" class="content-item">
+            <h2 class="headings">Courses</h2>
+            <ul class="non-style-list">
+                <li>Yandex Practicum</li>
+                <li>Html Academy</li>
+                <li>JavaScript/Front-end. Stage 0</li>
+                <li>Mini course QA-engineer</li>
+                <li>Mini course web designer</li>
+            </ul>
+        </div>
+
+        <div id="education" class="content-item">
+            <h2 class="headings">Education</h2>
+            <p class="text">Russian Academy of National Economy and Public Administration under the President of the
+                Russian
+                Federation</p>
+        </div>
+
+        <div id="english" class="content-item">
+            <h2 class="headings">English</h2>
+            <p>Elementary.Currently studying</p>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p>June 12, 2022</p>
+    <p>Made at the preparatory course "JavaScript/Front-end. Stage 0" in Rolling Scopes</p>
+</footer>
 </body>
 </html>

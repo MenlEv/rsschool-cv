@@ -1,0 +1,138 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(221, 243, 243, 0.07);
+}
+
+.non-style-list {
+    list-style: none;
+}
+
+.nav {
+    background-color: #FFD700;
+    padding-right: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    color: black;
+    outline: 1px solid blue;
+
+}
+
+.crop {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.photo {
+    object-fit: cover;
+    width: 300px;
+    margin: -50px 0 0;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.post {
+    font-size: 20px;
+    text-align: center
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.headings {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #FFD700;
+}
+
+.separator {
+    background-color: #FFD700;
+    height: 4px;
+    width: 100%;
+}
+
+.content-item {
+    display: block;
+    font-size: 20px;
+    flex-basis: 50%;
+}
+
+.full-width-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-basis: 100%;
+
+}
+
+.content-header-item {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.footer {
+    font-size: 14px;
+    background-color: #FFD700;
+    display: flex;
+    Flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+    flex-basis: 100%;
+}
+
