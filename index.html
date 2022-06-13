@@ -20,33 +20,36 @@
             <li><a href="#summary" class="nav-link">Summary</a></li>
             <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="#courses" class="nav-link">Courses</a></li>
+            <li><a href="#code" class="nav-link">Code</a></li>
             <li><a href="#education" class="nav-link">Education</a></li>
             <li><a href="#english" class="nav-link">English</a></li>
         </ul>
     </nav>
 </header>
 <main class="container">
-    <section class="full-width-content">
-        <div class="crop content-header-item">
+    <section class="full-width-content main-info">
+        <div class="crop">
             <img class="photo" src="assets/DSC05488-2-2.jpg" alt="Here is my photo">
         </div>
-        <div class="content-header-item">
+        <div class="main-info-item">
             <h1 class="name">Evgeniya Menliyakhmatova</h1>
             <p class="post">Intern front-end developer</p>
         </div>
-        <div id="contacts" class="content-header-item">
+        <div id="contacts" class="main-info-item">
             <h2 class="headings">Contacts</h2>
             <ul class="contacts-list non-style-list">
-                <li class="contacts-item">Russia, Saint Petersburg</li>
-                <li class="contacts-item"><span>email:<a href="mailto:eosergeeva@bk.ru" target="_blank"
-                                                         class="contacts-link">eosergeeva@bk.ru</a></span></li>
-                <li class="contacts-item"><span>Github:<a href="https://github.com/MenlEv" target="_blank"
-                                                          class="contacts-link">MenlEv</a></span></li>
-                <li class="contacts-item"><span>Telegram:<a href="https://t.me/evgeniya_stories" target="_blank"
-                                                            class="contacts-link">@evgeniya_stories</a></span></li>
+                <li class="contacts-item contacts-geolocation">Russia, Saint Petersburg</li>
+                <li class="contacts-item contacts-email"><span>email:<a href="mailto:eosergeeva@bk.ru" target="_blank"
+                                                                        class="contacts-link">eosergeeva@bk.ru</a></span>
+                </li>
+                <li class="contacts-item contacts-git"><span>Github:<a href="https://github.com/MenlEv" target="_blank"
+                                                                       class="contacts-link">MenlEv</a></span></li>
+                <li class="contacts-item contacts-tg"><span>Telegram:<a href="https://t.me/evgeniya_stories"
+                                                                        target="_blank"
+                                                                        class="contacts-link">@evgeniya_stories</a></span>
+                </li>
             </ul>
         </div>
-
     </section>
 
     <div class="separator">
@@ -67,41 +70,65 @@
     <div id="skills" class="content-item border-bottom">
         <h2 class="headings">Skills</h2>
         <ul class="non-style-list">
-            <li>Web-development: HTML5, CSS3, JavaScript</li>
-            <li>Frameworks and libraries: React</li>
-            <li>Version control: GIT, Github</li>
-            <li>Graphics: Figma</li>
+            <li class="skills-item">Web-development: HTML5, CSS3, JavaScript</li>
+            <li class="skills-item">Frameworks and libraries: React</li>
+            <li class="skills-item">Version control: GIT, Github</li>
+            <li class="skills-item">Graphics: Figma</li>
         </ul>
     </div>
 
-    <div class="full-width-content">
+    <div class="full-width-content border-bottom">
         <div id="courses" class="content-item">
             <h2 class="headings">Courses</h2>
             <ul class="non-style-list">
-                <li>Yandex Practicum</li>
-                <li>Html Academy</li>
-                <li>JavaScript/Front-end. Stage 0</li>
-                <li>Mini course QA-engineer</li>
-                <li>Mini course web designer</li>
+                <li class="courses-item">Yandex Practicum</li>
+                <li class="courses-item">Html Academy</li>
+                <li class="courses-item">JavaScript/Front-end. Stage 0</li>
+                <li class="courses-item">Mini course QA-engineer</li>
+                <li class="courses-item">Mini course web designer</li>
             </ul>
         </div>
 
-        <div id="education" class="content-item">
-            <h2 class="headings">Education</h2>
-            <p class="text">Russian Academy of National Economy and Public Administration under the President of the
-                Russian
-                Federation</p>
-        </div>
 
-        <div id="english" class="content-item">
-            <h2 class="headings">English</h2>
-            <p>Elementary.Currently studying</p>
+        <div id="code" class="content-item">
+            <h2 class="headings">Code</h2>
+            <code>
+                while(true) {
+                <br>
+                console.log(You are breathtaking)
+                <br>
+                }
+            </code>
         </div>
     </div>
+
+
+    <div id="education" class="content-item">
+        <h2 class="headings">Education</h2>
+        <p class="text">Russian Academy of National Economy and Public Administration under the President of the
+            Russian
+            Federation</p>
+    </div>
+
+    <div id="english" class="content-item">
+        <h2 class="headings">English</h2>
+        <p>Elementary. Currently studying</p>
+    </div>
 </main>
-<footer class="footer">
-    <p>June 12, 2022</p>
-    <p>Made at the preparatory course "JavaScript/Front-end. Stage 0" in Rolling Scopes</p>
+<footer>
+    <div class="footer container">
+        <p>2022</p>
+        <div class="link-footer">
+
+            <a href="https://github.com/MenlEv">
+                <img src="./assets/github.svg" width="50px" height="50px"
+                     alt="Here is my github"></a>
+            <span class="git-footer">MenlEv</span>
+        </div>
+        <a href=" https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" width="80px"
+                                               height="80px"
+                                               alt="Here is the school logo Rolling Scopes"> </a>
+    </div>
 </footer>
 </body>
 </html>
